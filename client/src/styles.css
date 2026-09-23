@@ -385,3 +385,27 @@ select {
     padding: 26px;
   }
 }
+.alert {
+  margin-bottom: 18px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.alert-error {
+  border: 1px solid #f3b6b6;
+  background: #fff1f1;
+  color: #b42318;
+}
+
+.alert-success {
+  border: 1px solid #a7e3bd;
+  background: #edfff3;
+  color: #16743a;
+}
+
+.auth-form button:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
